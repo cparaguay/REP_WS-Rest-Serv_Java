@@ -57,7 +57,7 @@ public class ServMySQL
 		} 
 		catch (Exception e) 
 		{
-			MessageSystem.messageError(this.getClass(), e, null);
+			MessageSystem.messageError(this.getClass(), e, "Error close conexion!");
 		}
 		finally
 		{
